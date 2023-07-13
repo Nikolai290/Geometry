@@ -50,7 +50,6 @@ public class FigureTests
     [Fact]
     public void Triangle_IsNotRigth2_Test()
     {
-        var expected = 6;
         var triangle = new Triangle(4,5,5);
         triangle.RightTriangle().Should().BeFalse();
     }
